@@ -11,14 +11,15 @@
 <?php
 echo '<link href="https://fonts.googleapis.com/css?family=Open+Sans:400|Work+Sans:300" rel="stylesheet">';
 echo '<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>';
-echo $this->html->css('reset');
-echo $this->html->css('rickaltena');
+echo $this->Html->css('reset');
+//echo $this->Html->css('rickaltena');
+echo $this->Html->css('minimal');
 echo $this->fetch('css');
 ?>
 </head>
 <body>
 
-<?
+<?php
 echo $this->Html->script('plupload-2.3.6/js/plupload.full.min.js');
 ?>
 <svg style="display:none; z-index:-1;" version="1.1" id="explode" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
