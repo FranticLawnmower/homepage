@@ -99,6 +99,7 @@ class PagesController extends AppController {
 
     public function home() {
         $items = $this->Item->find('all', array('conditions' => array('Item.type' => 'hero')));
+        $imageLinks = [];
         foreach($items as $item) {
             if(!empty($item['File'])) {
                 foreach ($item['File'] as $image) {
