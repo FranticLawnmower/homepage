@@ -1,0 +1,17 @@
+.wrapper {
+    display: flex;
+    position: relative;
+}
+
+.container {
+    overflow: hidden;
+}
+
+.hero-carousel {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image {
+    max-height: 100vh;
+}
